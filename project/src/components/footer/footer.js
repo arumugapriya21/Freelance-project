@@ -1,19 +1,20 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+import "./footer.css";
 class Footer extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <h1>Footers</h1>
-        )
-    }
+  render() {
+    return (
+      <div className="footer">
+        <div className="footer-hd"> Some text here</div>
+        <span>add some text here with respect to your company</span>
+      </div>
+    );
+  }
 }
 
-export default Footer
+export default Footer;

@@ -1,19 +1,25 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+import Footer from "../footer/footer";
+import Header from "../header/header";
 class Apis extends React.Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <h1>Apis</h1> 
-        )
-    }
+  render() {
+    return (
+      <>
+        <Header />
+        <div className="content">
+          <h1>Apis</h1>
+        </div>
+
+        <Footer />
+      </>
+    );
+  }
 }
 
-export default Apis
+export default Apis;

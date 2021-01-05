@@ -1,19 +1,25 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Footer from "../footer/footer";
+import Header from "../header/header";
 
 class Soefiles extends React.Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <h1>seofiles</h1>
-        )
-    }
+  render() {
+    return (
+      <>
+        <Header />
+        <div className="content">
+          <h1>seofiles</h1>
+        </div>
+        <Footer />
+      </>
+    );
+  }
 }
 
-export default Soefiles
+export default Soefiles;
